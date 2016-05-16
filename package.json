@@ -1,0 +1,41 @@
+{
+  "name": "generator-df-api",
+  "version": "0.1.1",
+  "description": "Generator to build a scaffolding for Node APIs in DF",
+  "homepage": "",
+  "author": {
+    "name": "DF Engineering Team",
+    "email": "df_consumer_team@demandforce.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "glob": "^7.0.0",
+    "moment": "^2.11.2",
+    "path": "^0.12.7",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "yeoman-assert": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "demandforce/generator-df-api",
+  "publishConfig": {
+    "registry": "https://npm-registry.8-network.com"
+  }
+}

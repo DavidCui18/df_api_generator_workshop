@@ -1,0 +1,6 @@
+.dependencies.json
+.editorconfig
+.gitattributes
+.gitignore
+.jshintrc
+test
